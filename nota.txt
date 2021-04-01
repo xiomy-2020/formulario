@@ -1,0 +1,64 @@
+"alt + 34
+'alt + 39
+(alt + 40
+)alt + 41
+[alt + 91
+]alt + 93
+{alt + 123
+}alt + 125
+«alt + 174
+»alt + 175
+
+
+ñ alt + 164
+Ñ alt + 165
+@ alt + 64
+¿ alt + 168
+? alt + 63
+¡ alt + 173
+! alt + 33
+: alt + 58
+/ alt + 47
+\ alt + 92
+
+
+½ alt + 171
+0 ¼alt + 172
+¾ alt + 243 
+¹ alt + 251
+³ alt + 252
+² alt + 253
+ƒ alt + 159
+± alt + 241
+× alt + 158 
+÷ alt + 246
+
+Coincidencias Basicas
+.       - Cualquier Caracter, excepto nueva linea
+\d      - Cualquier Digitos (0-9)
+\D      - No es un Digito (0-9)
+\w      - Caracter de Palabra (a-z, A-Z, 0-9, _)
+\W      - No es un Caracter de Palabra.
+\s      - Espacios de cualquier tipo. (espacio, tab, nueva linea)
+\S      - No es un Espacio, Tab o nueva linea.
+
+Limites
+\b      - Limite de Palabra
+\B      - No es un Limite de Palabra
+^       - Inicio de una cadena de texto
+$       - Final de una cadena de texto
+
+Cuantificadores:
+*       - 0 o Más
++       - 1 o Más
+?       - 0 o Uno
+{3}     - Numero Exacto
+{3,4}   - Rango de Numeros (Minimo, Maximo)
+
+Conjuntos de Caracteres
+[]      - Caracteres dentro de los brackets
+[^ ]    - Caracteres que NO ESTAN dentro de los brackets
+
+Grupos
+( )     - Grupo
+|       - Uno u otro
